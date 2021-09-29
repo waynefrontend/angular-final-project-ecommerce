@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { SplashComponent } from './splash/splash.component';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
