@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SplashComponent } from './splash/splash.component';
 import { LoginFormComponent } from './login-form/login-form.component';
+import { NewUserComponent } from './new-user/new-user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SplashComponent,
-    LoginFormComponent
+    LoginFormComponent,
+    NewUserComponent
   ],
   imports: [
     BrowserModule,
