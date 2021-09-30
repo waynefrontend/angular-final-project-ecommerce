@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { SplashComponent } from './splash/splash.component';
 import { LoginFormComponent } from './login-form/login-form.component';
 import { NewUserComponent } from './new-user/new-user.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SplashComponent,
     LoginFormComponent,
-    NewUserComponent
+    NewUserComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

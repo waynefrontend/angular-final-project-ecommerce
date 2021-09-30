@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { DashboardComponent } from './dashboard/dashboard.component';
 import { NewUserComponent } from './new-user/new-user.component';
 
 import { SplashComponent } from './splash/splash.component';
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: 'new-user',
     component: NewUserComponent
+  },
+  {
+    path: 'dashboard',
+    component: DashboardComponent
   },
   //Default path redirects to login page
   {
