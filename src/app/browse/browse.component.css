@@ -1,5 +1,7 @@
 .browse-view {
     margin-left: 3rem;
-    max-width: 65vw;
+    margin-top: 2rem;
+    width: 65vw;
     background-color: #ffdddd;
+    height: 85vh;
 }
