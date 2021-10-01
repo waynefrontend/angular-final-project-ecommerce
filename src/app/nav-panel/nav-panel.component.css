@@ -1,0 +1,19 @@
+.user-nav {
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #dddddd;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-link {
+    color: #000000;
+    margin-bottom: 0.3rem;
+    text-decoration: none;
+}
